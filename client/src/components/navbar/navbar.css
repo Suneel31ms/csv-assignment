@@ -1,0 +1,29 @@
+.navbar{
+    width: 100%;
+    background-color: #10ac84;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width: 30%;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.navlinks li{
+    width: 220px;
+}
+.navbar a,.navlinks a{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+.navlinks a:hover {
+    color: tomato;
+}
